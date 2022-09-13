@@ -8,7 +8,9 @@
 
 """
 import os
+import sys
 
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')
 '''run文件，主程序执行入口'''
 import pytest
 from 接口测试框架_demo.test_case.test_member_change import TestMemberChange

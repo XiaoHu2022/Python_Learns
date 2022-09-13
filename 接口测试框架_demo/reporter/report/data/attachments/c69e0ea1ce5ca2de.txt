@@ -1,5 +1,0 @@
-INFO     test5:base.py:33 用例【输入正确的参数，删除成员】-----开始执行
-INFO     test5:base.py:104 用例【输入正确的参数，删除成员】---响应状态码断言成功!
-INFO     test5:base.py:120 用例【输入正确的参数，删除成员】----请求json结果断言成功！
-INFO     test5:base.py:48 用例【输入正确的参数，删除成员】-----执行结束
-INFO     test5:base.py:31 成员管理业务流接口执行结束
