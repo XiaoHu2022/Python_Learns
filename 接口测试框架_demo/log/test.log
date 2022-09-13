@@ -1,0 +1,113 @@
+DEBUG  2022-08-31 18:18:31,874-[loging.py-->line:51]:debug
+INFO  2022-08-31 18:18:31,874-[loging.py-->line:52]:info
+WARNING  2022-08-31 18:18:31,875-[loging.py-->line:53]:警告
+ERROR  2022-08-31 18:18:31,876-[loging.py-->line:54]:error
+CRITICAL  2022-08-31 18:18:31,877-[loging.py-->line:55]:严重
+INFO  2022-08-31 18:29:42,152-[test_a.py-->line:19]:测试开始
+INFO  2022-08-31 18:29:42,152-[test_a.py-->line:19]:测试开始
+INFO  2022-08-31 18:29:42,169-[test_a.py-->line:21]:测试结束
+INFO  2022-08-31 18:29:42,169-[test_a.py-->line:21]:测试结束
+INFO  2022-08-31 18:30:02,941-[test_a.py-->line:19]:测试开始
+INFO  2022-08-31 18:30:02,941-[test_a.py-->line:19]:测试开始
+INFO  2022-08-31 18:30:02,954-[test_a.py-->line:21]:测试结束
+INFO  2022-08-31 18:30:02,954-[test_a.py-->line:21]:测试结束
+INFO  2022-08-31 18:31:57,775-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:31:57,775-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:31:57,777-[test_a.py-->line:24]:判断两个数的大小
+INFO  2022-08-31 18:31:57,777-[test_a.py-->line:24]:判断两个数的大小
+INFO  2022-08-31 18:31:57,781-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:31:57,781-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:33:16,856-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:33:16,856-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:33:16,858-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:33:16,858-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:33:16,858-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:33:16,858-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:35:47,902-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:35:47,902-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:35:47,903-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:35:47,903-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:35:48,546-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:35:48,546-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:36:43,923-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:36:43,923-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:36:43,925-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:36:43,925-[test_a.py-->line:25]:判断两个数的大小开始执行
+ERROR  2022-08-31 18:36:43,927-[test_a.py-->line:29]:测试数据有误！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_a.py", line 27, in test_a
+    assert a == b
+AssertionError: assert 1 == 'a'
+ERROR  2022-08-31 18:36:43,927-[test_a.py-->line:29]:测试数据有误！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_a.py", line 27, in test_a
+    assert a == b
+AssertionError: assert 1 == 'a'
+INFO  2022-08-31 18:36:44,000-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:36:44,000-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:37:37,378-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:37:37,378-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:37:37,379-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:37:37,379-[test_a.py-->line:25]:判断两个数的大小开始执行
+ERROR  2022-08-31 18:37:37,380-[test_a.py-->line:29]:测试数据有误！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_a.py", line 27, in test_a
+    assert a == b
+AssertionError: assert 1 == 'a'
+ERROR  2022-08-31 18:37:37,380-[test_a.py-->line:29]:测试数据有误！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_a.py", line 27, in test_a
+    assert a == b
+AssertionError: assert 1 == 'a'
+INFO  2022-08-31 18:37:37,432-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:37:37,432-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:38:33,598-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:38:33,598-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:38:33,599-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:38:33,599-[test_a.py-->line:25]:判断两个数的大小开始执行
+INFO  2022-08-31 18:38:33,599-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:38:33,599-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:39:31,386-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:39:31,386-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:39:31,387-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 18:39:31,387-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 18:39:31,389-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:39:31,389-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:40:05,790-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:40:05,790-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:40:05,792-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 18:40:05,792-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 18:40:05,795-[test_a.py-->line:32]:用例【判断两个数的大小】执行结束
+INFO  2022-08-31 18:40:05,795-[test_a.py-->line:32]:用例【判断两个数的大小】执行结束
+INFO  2022-08-31 18:40:05,800-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:40:05,800-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:43:32,217-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:43:32,217-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 18:43:32,219-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 18:43:32,219-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 18:43:32,219-[test_a.py-->line:32]:用例【判断两个数的大小】执行通过
+INFO  2022-08-31 18:43:32,219-[test_a.py-->line:32]:用例【判断两个数的大小】执行通过
+INFO  2022-08-31 18:43:32,220-[test_a.py-->line:34]:用例【判断两个数的大小】执行结束
+INFO  2022-08-31 18:43:32,220-[test_a.py-->line:34]:用例【判断两个数的大小】执行结束
+INFO  2022-08-31 18:43:32,221-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 18:43:32,221-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 19:35:33,240-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 19:35:33,241-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 19:35:33,241-[test_a.py-->line:32]:用例【判断两个数的大小】执行通过
+INFO  2022-08-31 19:35:33,241-[test_a.py-->line:34]:用例【判断两个数的大小】执行结束
+INFO  2022-08-31 19:35:33,242-[test_a.py-->line:20]:测试结束
+INFO  2022-08-31 20:02:29,771-[test_a.py-->line:18]:测试开始
+INFO  2022-08-31 20:02:29,773-[test_a.py-->line:25]:用例【判断两个数的大小】开始执行
+INFO  2022-08-31 20:02:29,773-[test_a.py-->line:32]:用例【判断两个数的大小】执行通过
+INFO  2022-08-31 20:02:29,773-[test_a.py-->line:34]:用例【判断两个数的大小】执行结束
+INFO  2022-08-31 20:02:29,775-[test_a.py-->line:20]:测试结束
+DEBUG  2022-09-02 22:00:36,596-[loging.py-->line:51]:debug
+INFO  2022-09-02 22:00:36,597-[loging.py-->line:52]:info
+WARNING  2022-09-02 22:00:36,598-[loging.py-->line:53]:警告
+ERROR  2022-09-02 22:00:36,598-[loging.py-->line:54]:error
+CRITICAL  2022-09-02 22:00:36,598-[loging.py-->line:55]:严重
+DEBUG  2022-09-02 22:06:38,418-[loging.py-->line:51]:debug
+INFO  2022-09-02 22:06:38,421-[loging.py-->line:52]:info
+WARNING  2022-09-02 22:06:38,422-[loging.py-->line:53]:警告
+ERROR  2022-09-02 22:06:38,423-[loging.py-->line:54]:error
+CRITICAL  2022-09-02 22:06:38,424-[loging.py-->line:55]:严重

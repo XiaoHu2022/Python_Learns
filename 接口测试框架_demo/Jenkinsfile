@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage('接口测试框架_demo'){
+            steps{
+                bat 'python main.py'
+            }
+        }
+    }
+}

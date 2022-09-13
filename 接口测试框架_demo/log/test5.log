@@ -1,0 +1,182 @@
+INFO  2022-09-03 15:21:44,726-[get_token.py-->line:19]:---------获取token用例开始执行-----------
+INFO  2022-09-03 15:21:45,093-[get_token.py-->line:21]:---------获取token用例执行结束-----------
+INFO  2022-09-03 15:21:45,391-[test_member_change.py-->line:34]:测试用例【输入正确的参数】开始执行
+DEBUG  2022-09-03 15:21:45,392-[test_member_change.py-->line:41]:url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+DEBUG  2022-09-03 15:21:45,392-[test_member_change.py-->line:42]:method:POST
+DEBUG  2022-09-03 15:21:45,392-[test_member_change.py-->line:43]:args:{'params': {'access_token': 'aXB-wf1A4sJXmZwepgH4e2QF0NaNsJj3zGpIPtB6kreBLwDAQKBjPQsnNfMJBdsJ-dAvc8lVd4nk7zxl5ndMu-ytds0OCOXG_hYOh8FDP9W_hADlgnxfGttNyE_1a9ZljDkeaWtXdyZNMKz9sR4Mkl7mTmhIY5aReAnwIjif5iyh-136voKAAVqh3MbwrGeEZJznJ0GJgkcEKBaJYQLrIQ'}, 'json': {'userid': 'zhangsan', 'name': '张三', 'alias': 'jackzhang', 'mobile': '+86 13800000000', 'department': [1]}}
+INFO  2022-09-03 15:21:46,393-[test_member_change.py-->line:49]:测试用例【输入正确的参数】执行结束
+INFO  2022-09-03 15:21:46,396-[test_member_change.py-->line:34]:测试用例【多参数】开始执行
+DEBUG  2022-09-03 15:21:46,397-[test_member_change.py-->line:41]:url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+DEBUG  2022-09-03 15:21:46,398-[test_member_change.py-->line:42]:method:POST
+DEBUG  2022-09-03 15:21:46,400-[test_member_change.py-->line:43]:args:{'params': {'access_token': 'aXB-wf1A4sJXmZwepgH4e2QF0NaNsJj3zGpIPtB6kreBLwDAQKBjPQsnNfMJBdsJ-dAvc8lVd4nk7zxl5ndMu-ytds0OCOXG_hYOh8FDP9W_hADlgnxfGttNyE_1a9ZljDkeaWtXdyZNMKz9sR4Mkl7mTmhIY5aReAnwIjif5iyh-136voKAAVqh3MbwrGeEZJznJ0GJgkcEKBaJYQLrIQ'}, 'json': {'userid': 'zhangsan', 'name': '张三', 'alias': 'jackzhang', 'mobile': '+86 13800000000', 'department': [1], 'abc': 123}}
+INFO  2022-09-03 15:22:47,759-[get_token.py-->line:19]:---------获取token用例开始执行-----------
+INFO  2022-09-03 15:22:48,108-[get_token.py-->line:21]:---------获取token用例执行结束-----------
+INFO  2022-09-03 15:22:48,390-[test_member_change.py-->line:34]:测试用例【输入正确的参数】开始执行
+DEBUG  2022-09-03 15:22:48,391-[test_member_change.py-->line:41]:url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+DEBUG  2022-09-03 15:22:48,391-[test_member_change.py-->line:42]:method:POST
+DEBUG  2022-09-03 15:22:48,391-[test_member_change.py-->line:43]:args:{'params': {'access_token': 'aXB-wf1A4sJXmZwepgH4e2QF0NaNsJj3zGpIPtB6kreBLwDAQKBjPQsnNfMJBdsJ-dAvc8lVd4nk7zxl5ndMu-ytds0OCOXG_hYOh8FDP9W_hADlgnxfGttNyE_1a9ZljDkeaWtXdyZNMKz9sR4Mkl7mTmhIY5aReAnwIjif5iyh-136voKAAVqh3MbwrGeEZJznJ0GJgkcEKBaJYQLrIQ'}, 'json': {'userid': 'zhangsan', 'name': '张三', 'alias': 'jackzhang', 'mobile': '+86 13800000000', 'department': [1]}}
+INFO  2022-09-03 15:22:49,377-[test_member_change.py-->line:49]:测试用例【输入正确的参数】执行结束
+INFO  2022-09-03 15:22:49,381-[test_member_change.py-->line:34]:测试用例【多参数】开始执行
+DEBUG  2022-09-03 15:22:49,382-[test_member_change.py-->line:41]:url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+DEBUG  2022-09-03 15:22:49,383-[test_member_change.py-->line:42]:method:POST
+DEBUG  2022-09-03 15:22:49,383-[test_member_change.py-->line:43]:args:{'params': {'access_token': 'aXB-wf1A4sJXmZwepgH4e2QF0NaNsJj3zGpIPtB6kreBLwDAQKBjPQsnNfMJBdsJ-dAvc8lVd4nk7zxl5ndMu-ytds0OCOXG_hYOh8FDP9W_hADlgnxfGttNyE_1a9ZljDkeaWtXdyZNMKz9sR4Mkl7mTmhIY5aReAnwIjif5iyh-136voKAAVqh3MbwrGeEZJznJ0GJgkcEKBaJYQLrIQ'}, 'json': {'userid': 'zhangsan', 'name': '张三', 'alias': 'jackzhang', 'mobile': '+86 13800000000', 'department': [1], 'abc': 123}}
+ERROR  2022-09-03 15:47:37,294-[test_member_change.py-->line:62]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 60, in test_add_member
+    assert data['expect']['errmsg'] == r.json()['errmsg']
+AssertionError: assert 'fail' == 'mobile existed:zhangsan'
+  - mobile existed:zhangsan
+  + fail
+ERROR  2022-09-03 15:49:29,687-[test_member_change.py-->line:62]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 60, in test_add_member
+    assert data['expect']['errmsg'] == r.json()['errmsg']
+AssertionError: assert 'fail' == 'mobile existed:zhangsan'
+  - mobile existed:zhangsan
+  + fail
+ERROR  2022-09-03 15:51:02,601-[test_member_change.py-->line:62]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 60, in test_add_member
+    assert data['expect']['errmsg'] == r.json()['errmsg']
+AssertionError: assert 'fail' == 'mobile existed:zhangsan'
+  - mobile existed:zhangsan
+  + fail
+ERROR  2022-09-03 16:15:15,421-[test_member_change.py-->line:68]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 65, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 0 == 40014
+ERROR  2022-09-03 16:15:15,752-[test_member_change.py-->line:68]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 65, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 60104 == 40014
+ERROR  2022-09-03 16:16:37,818-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 0 == 40014
+ERROR  2022-09-03 16:16:38,132-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 60104 == 40014
+ERROR  2022-09-03 16:18:43,642-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 0 == 40014
+ERROR  2022-09-03 16:18:43,965-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 60104 == 40014
+ERROR  2022-09-03 16:20:18,634-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 0 == 40014
+ERROR  2022-09-03 16:20:18,952-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 60104 == 40014
+ERROR  2022-09-03 16:21:25,540-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 0 == 40014
+ERROR  2022-09-03 16:21:25,958-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 66, in test_add_member
+    assert data['expect']['errcode'] == r.json()['errcode']
+AssertionError: assert 60104 == 40014
+ERROR  2022-09-03 16:22:35,318-[test_member_change.py-->line:69]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 67, in test_add_member
+    assert data['expect']['errmsg'] == r.json()['errmsg']
+AssertionError: assert 'fail' == 'mobile existed:zhangsan'
+  - mobile existed:zhangsan
+  + fail
+ERROR  2022-09-03 19:46:26,545-[test_member_change.py-->line:62]:请求结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\test_member_change.py", line 60, in test_add_member
+    assert data['expect']['errmsg'] == r.json()['errmsg']
+AssertionError: assert 'fail' == 'mobile existed:zhangsan'
+  - mobile existed:zhangsan
+  + fail
+ERROR  2022-09-03 21:02:43,040-[base.py-->line:104]:用例【多参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 102, in assert_response_data
+    assert self.data['expect']['errmsg'] == self.res.json()['errmsg']
+AssertionError
+ERROR  2022-09-03 21:10:54,486-[base.py-->line:89]:用例【输入正确的参数】---响应状态码断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 87, in assert_status_code
+    assert self.data['status_code'] in self.res.status_code
+TypeError: argument of type 'int' is not iterable
+ERROR  2022-09-03 21:10:55,161-[base.py-->line:89]:用例【多参数】---响应状态码断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 87, in assert_status_code
+    assert self.data['status_code'] in self.res.status_code
+TypeError: argument of type 'int' is not iterable
+ERROR  2022-09-03 21:12:07,921-[base.py-->line:89]:用例【输入正确的参数】---响应状态码断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 87, in assert_status_code
+    assert int(self.data['status_code']) in self.res.status_code
+TypeError: argument of type 'int' is not iterable
+ERROR  2022-09-03 21:12:08,640-[base.py-->line:89]:用例【多参数】---响应状态码断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 87, in assert_status_code
+    assert int(self.data['status_code']) in self.res.status_code
+TypeError: argument of type 'int' is not iterable
+ERROR  2022-09-03 21:12:37,444-[base.py-->line:104]:用例【输入正确的参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 101, in assert_response_data
+    assert self.data['expect']['errcode'] == self.res.json()['errcode']
+AssertionError
+ERROR  2022-09-03 21:12:38,115-[base.py-->line:104]:用例【多参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 102, in assert_response_data
+    assert self.data['expect']['errmsg'] == self.res.json()['errmsg']
+AssertionError
+ERROR  2022-09-03 21:14:27,457-[base.py-->line:104]:用例【多参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 102, in assert_response_data
+    assert self.data['expect']['errmsg'] == self.res.json()['errmsg']
+AssertionError
+ERROR  2022-09-03 21:36:57,447-[base.py-->line:105]:用例【多参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 103, in assert_response_data
+    assert self.data['expect']['errmsg'] == self.res.json()['errmsg']
+AssertionError
+ERROR  2022-09-03 21:37:32,780-[base.py-->line:105]:用例【多参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 103, in assert_response_data
+    assert self.data['expect']['errmsg'] == self.res.json()['errmsg']
+AssertionError
+ERROR  2022-09-05 20:01:13,222-[base.py-->line:109]:用例【输入正确的参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 106, in assert_response_data
+    assert self.data['expect']['errcode'] == self.res.json()['errcode']
+AssertionError
+ERROR  2022-09-05 20:01:14,138-[base.py-->line:109]:用例【多参数】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试\test_case\base.py", line 107, in assert_response_data
+    assert self.data['expect']['errmsg'] == self.res.json()['errmsg']
+AssertionError
+ERROR  2022-09-13 14:58:08,445-[base.py-->line:117]:用例【输入正确的参数,添加成员】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试1\test_case\base.py", line 114, in assert_response_data
+    assert self.data['expect']['errcode'] == self.res.json()['errcode']
+AssertionError
+ERROR  2022-09-13 14:58:08,759-[base.py-->line:117]:用例【修改成员信息】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试1\test_case\base.py", line 114, in assert_response_data
+    assert self.data['expect']['errcode'] == self.res.json()['errcode']
+AssertionError
+ERROR  2022-09-13 14:58:09,000-[base.py-->line:117]:用例【输入正确的参数，删除成员】----请求json结果断言失败！
+Traceback (most recent call last):
+  File "E:\Python_Learns\lemon接口测试1\test_case\base.py", line 114, in assert_response_data
+    assert self.data['expect']['errcode'] == self.res.json()['errcode']
+AssertionError
