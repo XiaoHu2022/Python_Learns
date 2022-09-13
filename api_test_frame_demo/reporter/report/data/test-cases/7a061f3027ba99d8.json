@@ -1,0 +1,104 @@
+{
+  "uid" : "7a061f3027ba99d8",
+  "name" : "test_member[data1]",
+  "fullName" : "run.TestMemberChange#test_member",
+  "historyId" : "0d2f01d87734bb3e3e5e075e89077987",
+  "time" : {
+    "start" : 1663054002481,
+    "stop" : 1663054003368,
+    "duration" : 887
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestMemberChange",
+    "time" : {
+      "start" : 1663054001230,
+      "stop" : 1663054001558,
+      "duration" : 328
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ac49a5024431f1e",
+      "name" : "log",
+      "source" : "4ac49a5024431f1e.txt",
+      "type" : "text/plain",
+      "size" : 332
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestMemberChange::0",
+    "time" : {
+      "start" : 1663054004023,
+      "stop" : 1663054004024,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMemberChange"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5FKMFO0H"
+  }, {
+    "name" : "thread",
+    "value" : "16820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 'case_2', 'case_title': '修改成员信息', 'url': 'update_member', 'method': 'POST', 'request': '{\\n\"params\":{\\n        \"access_token\":\"${access_token}\"\\n    },\\n    \"json\":{\\n        \"userid\": \"zhangsan\",\\n        \"name\": \"李四\"\\n    }\\n}', 'expect': '{\"errcode\": 0,\"errmsg\": \"updated\"}', 'status_code': 200, 'sql': None, 'extract': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a061f3027ba99d8.json",
+  "parameterValues" : [ "{'case_id': 'case_2', 'case_title': '修改成员信息', 'url': 'update_member', 'method': 'POST', 'request': '{\\n\"params\":{\\n        \"access_token\":\"${access_token}\"\\n    },\\n    \"json\":{\\n        \"userid\": \"zhangsan\",\\n        \"name\": \"李四\"\\n    }\\n}', 'expect': '{\"errcode\": 0,\"errmsg\": \"updated\"}', 'status_code': 200, 'sql': None, 'extract': None}" ]
+}

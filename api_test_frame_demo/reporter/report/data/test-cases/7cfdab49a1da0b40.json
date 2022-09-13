@@ -1,0 +1,104 @@
+{
+  "uid" : "7cfdab49a1da0b40",
+  "name" : "test_member[data2]",
+  "fullName" : "run.TestMemberChange#test_member",
+  "historyId" : "9db07c903fb0cbf3b779fa3407e4e85d",
+  "time" : {
+    "start" : 1663065794746,
+    "stop" : 1663065795367,
+    "duration" : 621
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestMemberChange",
+    "time" : {
+      "start" : 1663065792307,
+      "stop" : 1663065792685,
+      "duration" : 378
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f870fb7f2ee21acd",
+      "name" : "log",
+      "source" : "f870fb7f2ee21acd.txt",
+      "type" : "text/plain",
+      "size" : 512
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestMemberChange::0",
+    "time" : {
+      "start" : 1663065795370,
+      "stop" : 1663065795370,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMemberChange"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5FKMFO0H"
+  }, {
+    "name" : "thread",
+    "value" : "21236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 'case_3', 'case_title': '输入正确的参数，删除成员', 'url': 'delete_member', 'method': 'GET', 'request': '{\\n\"params\":{\\n        \"access_token\":\"${access_token}\",\\n        \"userid\": \"zhangsan\"\\n    }\\n}', 'expect': '{\"errcode\": 0,\"errmsg\": \"deleted\"}', 'status_code': 200, 'sql': None, 'extract': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cfdab49a1da0b40.json",
+  "parameterValues" : [ "{'case_id': 'case_3', 'case_title': '输入正确的参数，删除成员', 'url': 'delete_member', 'method': 'GET', 'request': '{\\n\"params\":{\\n        \"access_token\":\"${access_token}\",\\n        \"userid\": \"zhangsan\"\\n    }\\n}', 'expect': '{\"errcode\": 0,\"errmsg\": \"deleted\"}', 'status_code': 200, 'sql': None, 'extract': None}" ]
+}

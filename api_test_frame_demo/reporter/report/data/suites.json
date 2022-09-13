@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "run",
+    "children" : [ {
+      "name" : "TestMemberChange",
+      "children" : [ {
+        "name" : "test_member[data0]",
+        "uid" : "bf9a3d7a2602ccc0",
+        "parentUid" : "5bc2843203e386affda8727e3a2542a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663065946555,
+          "stop" : 1663065947490,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'case_1', 'case_title': '输入正确的参数,添加成员', 'url': 'add_member', 'method': 'POST', 'request': '{\\n\"params\":{\"access_token\":\"${access_token}\"},\\n\"json\":{\"userid\": \"zhangsan\", \"name\": \"张三\",\\n \"alias\": \"jackzhang\", \"mobile\": \"+86 13800000000\", \\n\"department\": [1]}\\n}', 'expect': '{\"errcode\": 0, \"errmsg\": \"created\"}', 'status_code': 200, 'sql': None, 'extract': None}" ]
+      }, {
+        "name" : "test_member[data1]",
+        "uid" : "28b2f9b6d743a60f",
+        "parentUid" : "5bc2843203e386affda8727e3a2542a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663065947520,
+          "stop" : 1663065948345,
+          "duration" : 825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'case_2', 'case_title': '修改成员信息', 'url': 'update_member', 'method': 'POST', 'request': '{\\n\"params\":{\\n        \"access_token\":\"${access_token}\"\\n    },\\n    \"json\":{\\n        \"userid\": \"zhangsan\",\\n        \"name\": \"李四\"\\n    }\\n}', 'expect': '{\"errcode\": 0,\"errmsg\": \"updated\"}', 'status_code': 200, 'sql': None, 'extract': None}" ]
+      }, {
+        "name" : "test_member[data2]",
+        "uid" : "ce84214ce3e81d42",
+        "parentUid" : "5bc2843203e386affda8727e3a2542a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663065948360,
+          "stop" : 1663065949000,
+          "duration" : 640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'case_3', 'case_title': '输入正确的参数，删除成员', 'url': 'delete_member', 'method': 'GET', 'request': '{\\n\"params\":{\\n        \"access_token\":\"${access_token}\",\\n        \"userid\": \"zhangsan\"\\n    }\\n}', 'expect': '{\"errcode\": 0,\"errmsg\": \"deleted\"}', 'status_code': 200, 'sql': None, 'extract': None}" ]
+      } ],
+      "uid" : "5bc2843203e386affda8727e3a2542a0"
+    } ],
+    "uid" : "c18d7a523b62be7460958f9788817bd8"
+  } ]
+}

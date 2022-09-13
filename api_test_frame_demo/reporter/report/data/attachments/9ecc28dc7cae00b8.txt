@@ -1,0 +1,4 @@
+[32mINFO    [0m test5:base.py:33 用例【修改成员信息】-----开始执行
+[32mINFO    [0m test5:base.py:104 用例【修改成员信息】---响应状态码断言成功!
+[32mINFO    [0m test5:base.py:120 用例【修改成员信息】----请求json结果断言成功！
+[32mINFO    [0m test5:base.py:48 用例【修改成员信息】-----执行结束
