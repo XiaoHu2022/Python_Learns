@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 17 23:14:54 GMT+08:00 2022","Sat Sep 17 23:15:00 GMT+08:00 2022","5611","","run","TestLogin","","","test_login[data1]",""
+"passed","Sat Sep 17 23:15:18 GMT+08:00 2022","Sat Sep 17 23:15:23 GMT+08:00 2022","5228","","run","TestLogin","","","test_login[data2]",""
+"passed","Sat Sep 17 23:14:30 GMT+08:00 2022","Sat Sep 17 23:14:36 GMT+08:00 2022","5976","","run","TestLogin","","","test_login[data0]",""

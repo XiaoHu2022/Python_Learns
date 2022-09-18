@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "run",
+    "children" : [ {
+      "name" : "TestLogin",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "73b08303c0ea18b1",
+        "parentUid" : "21e7431c9bed66e27121ec07d3b5b5ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663427670583,
+          "stop" : 1663427676559,
+          "duration" : 5976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "16068cb76fbbdb4b",
+        "parentUid" : "21e7431c9bed66e27121ec07d3b5b5ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663427694423,
+          "stop" : 1663427700034,
+          "duration" : 5611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      }, {
+        "name" : "test_login[data2]",
+        "uid" : "396e2ac337033178",
+        "parentUid" : "21e7431c9bed66e27121ec07d3b5b5ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663427718010,
+          "stop" : 1663427723238,
+          "duration" : 5228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      } ],
+      "uid" : "21e7431c9bed66e27121ec07d3b5b5ad"
+    } ],
+    "uid" : "c18d7a523b62be7460958f9788817bd8"
+  } ]
+}

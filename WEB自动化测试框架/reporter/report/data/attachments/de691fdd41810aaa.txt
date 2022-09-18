@@ -1,0 +1,12 @@
+[32mINFO    [0m test5:test_base.py:17 【登录页面】开始测试
+[32mINFO    [0m test5:basepage.py:61 定位元素：('xpath', '//*[@class="am-btn-primary btn am-fl"]')
+[32mINFO    [0m test5:basepage.py:94 执行点击操作
+[32mINFO    [0m test5:basepage.py:61 定位元素：('name', 'accounts')
+[32mINFO    [0m test5:basepage.py:86 输入数据：alive
+[32mINFO    [0m test5:basepage.py:61 定位元素：('name', 'pwd')
+[32mINFO    [0m test5:basepage.py:86 输入数据：123456
+[32mINFO    [0m test5:basepage.py:61 定位元素：('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/button')
+[32mINFO    [0m test5:basepage.py:94 执行点击操作
+[32mINFO    [0m test5:basepage.py:61 定位元素：('xpath', '/html/body/div[2]/div/ul[1]/div/div/a')
+[32mINFO    [0m test5:basepage.py:192 断言成功，【login_case_001】 测试通过！
+[32mINFO    [0m test5:basepage.py:171 关闭浏览器

@@ -1,0 +1,13 @@
+[32mINFO    [0m test5:basepage.py:60 定位元素：('xpath', '//*[@class="am-btn-primary btn am-fl"]')
+[32mINFO    [0m test5:basepage.py:93 执行点击操作
+[32mINFO    [0m test5:basepage.py:60 定位元素：('name', 'accounts')
+[32mINFO    [0m test5:basepage.py:85 输入数据：alive
+[32mINFO    [0m test5:basepage.py:60 定位元素：('name', 'pwd')
+[32mINFO    [0m test5:basepage.py:85 输入数据：1234567
+[32mINFO    [0m test5:basepage.py:60 定位元素：('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/button')
+[32mINFO    [0m test5:basepage.py:93 执行点击操作
+[32mINFO    [0m test5:basepage.py:60 定位元素：('xpath', "//*[@id='common-prompt']/div/p")
+[32mINFO    [0m test5:basepage.py:193 断言失败，【login_case_002】 测试失败！期望结果为：密码错误,实际结果为：
+[32mINFO    [0m test5:basepage.py:148 调用截图操作...
+[32mINFO    [0m test5:basepage.py:154 截图保存成功,图片路径：E:\Python_Learns\WEB自动化测试框架\image\失败截图：2022-09-17 20-52-20.png
+[32mINFO    [0m test5:test_base.py:19 【登录页面】测试结束

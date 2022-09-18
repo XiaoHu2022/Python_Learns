@@ -1,0 +1,244 @@
+{
+  "uid" : "16068cb76fbbdb4b",
+  "name" : "test_login[data1]",
+  "fullName" : "run.TestLogin#test_login",
+  "historyId" : "6a42ab545080d6017bf21853c464e0cc",
+  "time" : {
+    "start" : 1663427694423,
+    "stop" : 1663427700034,
+    "duration" : 5611
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1663427651870,
+      "stop" : 1663427651880,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestLogin",
+    "time" : {
+      "start" : 1663427676578,
+      "stop" : 1663427694422,
+      "duration" : 17844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de96ec6789837568",
+      "name" : "log",
+      "source" : "de96ec6789837568.txt",
+      "type" : "text/plain",
+      "size" : 871
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1663427700034,
+      "stop" : 1663427700034,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1663427723238,
+      "stop" : 1663427723238,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5FKMFO0H"
+  }, {
+    "name" : "thread",
+    "value" : "12940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41ef0bdaac4e2c4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663422833620,
+        "stop" : 1663422841791,
+        "duration" : 8171
+      }
+    }, {
+      "uid" : "330cf4dbb11f55c5",
+      "status" : "broken",
+      "statusDetails" : "NotADirectoryError: [WinError 267] 目录名称无效。: 'E:\\\\Python_Learns\\\\WEB自动化测试框架\\\\driver\\\\geckodriver.exe'",
+      "time" : {
+        "start" : 1663422547722,
+        "stop" : 1663422547722,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7c8a7987dad13786",
+      "status" : "broken",
+      "statusDetails" : "NotADirectoryError: [WinError 267] 目录名称无效。: 'E:\\\\Python_Learns\\\\WEB自动化测试框架\\\\driver\\\\geckodriver.exe'",
+      "time" : {
+        "start" : 1663422454398,
+        "stop" : 1663422454398,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "307b8e1c10f68c6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663422362586,
+        "stop" : 1663422369359,
+        "duration" : 6773
+      }
+    }, {
+      "uid" : "16773422f80e2ac7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663422257101,
+        "stop" : 1663422262463,
+        "duration" : 5362
+      }
+    }, {
+      "uid" : "f6d2cd7aa0edad42",
+      "status" : "broken",
+      "statusDetails" : "NotADirectoryError: [WinError 267] 目录名称无效。: 'E:\\\\Python_Learns\\\\WEB自动化测试框架\\\\driver/geckodriver.exe'",
+      "time" : {
+        "start" : 1663422120626,
+        "stop" : 1663422120626,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dbf73fc65519fe67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663422093653,
+        "stop" : 1663422100875,
+        "duration" : 7222
+      }
+    }, {
+      "uid" : "1a428e33603394f4",
+      "status" : "broken",
+      "statusDetails" : "NotADirectoryError: [WinError 267] 目录名称无效。: 'E:\\\\Python_Learns\\\\WEB自动化测试框架\\\\driver/geckodriver.exe'",
+      "time" : {
+        "start" : 1663422037528,
+        "stop" : 1663422037528,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cfdce42db23d8ebf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663419356884,
+        "stop" : 1663419364421,
+        "duration" : 7537
+      }
+    }, {
+      "uid" : "9b2782b5bd16b00b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663418959725,
+        "stop" : 1663418965436,
+        "duration" : 5711
+      }
+    }, {
+      "uid" : "5739ec813141eca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663417928577,
+        "stop" : 1663417935623,
+        "duration" : 7046
+      }
+    }, {
+      "uid" : "7a5b353c74fede72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663413681068,
+        "stop" : 1663413687917,
+        "duration" : 6849
+      }
+    }, {
+      "uid" : "90983350dea66132",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663412648998,
+        "stop" : 1663412655892,
+        "duration" : 6894
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16068cb76fbbdb4b.json",
+  "parameterValues" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+}

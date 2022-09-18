@@ -1,0 +1,175 @@
+1663418903787	geckodriver	INFO	Listening on 127.0.0.1:39136
+1663418906821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofilecXPCgV"
+1663418907379	Marionette	INFO	Marionette enabled
+1663418907390	Marionette	INFO	Listening on port 39149
+Read port: 39149
+1663418907701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofilecXPCgV\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663418928539, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663418932847, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663418935932	Marionette	INFO	Stopped listening on port 39149
+1663418937911	geckodriver	INFO	Listening on 127.0.0.1:39205
+1663418940921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofileFX2HyR"
+1663418941638	Marionette	INFO	Marionette enabled
+1663418941646	Marionette	INFO	Listening on port 39219
+Read port: 39219
+1663418941988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofileFX2HyR\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663418957987, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663418960456, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663418963658	Marionette	INFO	Stopped listening on port 39219
+1663418965490	geckodriver	INFO	Listening on 127.0.0.1:39268
+1663418968504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofilelIseHF"
+1663418969112	Marionette	INFO	Marionette enabled
+1663418969119	Marionette	INFO	Listening on port 39281
+Read port: 39281
+1663418969429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofilelIseHF\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663419136691, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663419137988	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1663419309779	Marionette	INFO	Stopped listening on port 39281
+1663422188697	geckodriver	INFO	Listening on 127.0.0.1:40509
+1663422191776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofile93KAqL"
+1663422192952	Marionette	INFO	Marionette enabled
+1663422192961	Marionette	INFO	Listening on port 40523
+Read port: 40523
+1663422193267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofile93KAqL\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422207041, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422212234	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422211258, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422215487	Marionette	INFO	Stopped listening on port 40523
+1663422218483	geckodriver	INFO	Listening on 127.0.0.1:40568
+1663422221509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofileE8Qmy5"
+1663422222120	Marionette	INFO	Marionette enabled
+1663422222128	Marionette	INFO	Listening on port 40581
+Read port: 40581
+1663422222450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofileE8Qmy5\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422252505, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422257900, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422260857	Marionette	INFO	Stopped listening on port 40581
+1663422262513	geckodriver	INFO	Listening on 127.0.0.1:40632
+1663422265544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofile3C1wbA"
+1663422266158	Marionette	INFO	Marionette enabled
+1663422266165	Marionette	INFO	Listening on port 40645
+Read port: 40645
+1663422266539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofile3C1wbA\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422286409, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422293618, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422296410	Marionette	INFO	Stopped listening on port 40645
+1663422738047	geckodriver	INFO	Listening on 127.0.0.1:41268
+1663422741093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofiletAJ6tn"
+1663422741663	Marionette	INFO	Marionette enabled
+1663422741670	Marionette	INFO	Listening on port 41281
+Read port: 41281
+1663422741987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofiletAJ6tn\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422762637, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422769457	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422768484, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422771691	Marionette	INFO	Stopped listening on port 41281
+[Parent 15144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1663422776516	geckodriver	INFO	Listening on 127.0.0.1:41492
+1663422779514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofileRd6Xoa"
+1663422780191	Marionette	INFO	Marionette enabled
+1663422780199	Marionette	INFO	Listening on port 41512
+Read port: 41512
+1663422780581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofileRd6Xoa\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422832972, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422834306, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422837368	Marionette	INFO	Stopped listening on port 41512
+1663422841882	geckodriver	INFO	Listening on 127.0.0.1:41660
+1663422844933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofileFSwfDz"
+1663422845507	Marionette	INFO	Marionette enabled
+1663422845515	Marionette	INFO	Listening on port 41674
+Read port: 41674
+1663422845810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofileFSwfDz\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422891252, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663422892609, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663422896180	Marionette	INFO	Stopped listening on port 41674
+1663427651923	geckodriver	INFO	Listening on 127.0.0.1:47595
+1663427655012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofileEQR5n5"
+1663427656407	Marionette	INFO	Marionette enabled
+1663427656416	Marionette	INFO	Listening on port 47608
+Read port: 47608
+1663427656755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofileEQR5n5\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663427669824, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663427671665, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663427674670	Marionette	INFO	Stopped listening on port 47608
+1663427676616	geckodriver	INFO	Listening on 127.0.0.1:47680
+1663427679649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofile2f7zdQ"
+1663427680204	Marionette	INFO	Marionette enabled
+1663427680210	Marionette	INFO	Listening on port 47693
+Read port: 47693
+1663427680517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofile2f7zdQ\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663427693770, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663427695115, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663427698322	Marionette	INFO	Stopped listening on port 47693
+1663427700090	geckodriver	INFO	Listening on 127.0.0.1:47748
+1663427703146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\胡云峰\\AppData\\Local\\Temp\\rust_mozprofileL5nvSG"
+1663427703750	Marionette	INFO	Marionette enabled
+1663427703758	Marionette	INFO	Listening on port 47764
+Read port: 47764
+1663427704047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u80E1\u4E91\u5CF0\\AppData\\Local\\Temp\\rust_mozprofileL5nvSG\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663427717289, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1663427718660, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://shop-xo.hctestedu.com."
+1663427721640	Marionette	INFO	Stopped listening on port 47764

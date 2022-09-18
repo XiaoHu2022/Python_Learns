@@ -1,0 +1,60 @@
+ERROR  2022-09-16 18:02:37,005-[basepage.py-->line:176]:预期结果的定位元素【/html/body/div[2]/div/ul[1]/div/div/a】没找到
+Traceback (most recent call last):
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 173, in should_element_contain
+    ele = self.get_element(how, what)
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 51, in get_element
+    ele = WebDriverWait(self._driver, wait_time, per_time).until(lambda dr: dr.find_element(*locator))
+  File "E:\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ERROR  2022-09-16 18:04:39,226-[basepage.py-->line:176]:预期结果的定位元素【/html/body/div[2]/div/ul[1]/div/div/a】没找到
+Traceback (most recent call last):
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 173, in should_element_contain
+    ele = self.get_element(how, what)
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 51, in get_element
+    ele = WebDriverWait(self._driver, wait_time, per_time).until(lambda dr: dr.find_element(*locator))
+  File "E:\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ERROR  2022-09-16 18:07:51,766-[basepage.py-->line:176]:预期结果的定位元素【/html/body/div[2]/div/ul[1]/div/div/a】没找到
+Traceback (most recent call last):
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 173, in should_element_contain
+    ele = self.get_element(how, what)
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 51, in get_element
+    ele = WebDriverWait(self._driver, wait_time, per_time).until(lambda dr: dr.find_element(*locator))
+  File "E:\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ERROR  2022-09-16 18:14:18,095-[basepage.py-->line:176]:预期结果的定位元素【/html/body/div[2]/div/ul[1]/div/div/a】没找到
+Traceback (most recent call last):
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 173, in should_element_contain
+    ele = self.get_element(how, what)
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 51, in get_element
+    ele = WebDriverWait(self._driver, wait_time, per_time).until(lambda dr: dr.find_element(*locator))
+  File "E:\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ERROR  2022-09-16 18:34:55,351-[basepage.py-->line:177]:预期结果的定位元素【/html/body/div[2]/div/ul[1]/div/div/a】没找到
+Traceback (most recent call last):
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 174, in should_element_contain
+    ele = self.get_element(how, what)
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 51, in get_element
+    ele = WebDriverWait(self._driver, wait_time, per_time).until(lambda dr: dr.find_element(*locator))
+  File "E:\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ERROR  2022-09-16 18:53:29,188-[basepage.py-->line:177]:预期结果的定位元素【/html/body/div[2]/div/ul[1]/div/div/a】没找到
+Traceback (most recent call last):
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 174, in should_element_contain
+    ele = self.get_element(how, what)
+  File "E:\Python_Learns\WEB自动化测试框架\page\basepage.py", line 51, in get_element
+    ele = WebDriverWait(self._driver, wait_time, per_time).until(lambda dr: dr.find_element(*locator))
+  File "E:\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

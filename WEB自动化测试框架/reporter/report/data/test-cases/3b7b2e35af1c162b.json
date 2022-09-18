@@ -1,0 +1,134 @@
+{
+  "uid" : "3b7b2e35af1c162b",
+  "name" : "test_login[data0]",
+  "fullName" : "run.TestLogin#test_login",
+  "historyId" : "7d88344ca0847853ac3c26d02e2ca9bb",
+  "time" : {
+    "start" : 1663422209919,
+    "stop" : 1663422218418,
+    "duration" : 8499
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestLogin",
+    "time" : {
+      "start" : 1663422188650,
+      "stop" : 1663422209909,
+      "duration" : 21259
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1663422188650,
+      "stop" : 1663422188650,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff7d9e9b49749a94",
+      "name" : "log",
+      "source" : "ff7d9e9b49749a94.txt",
+      "type" : "text/plain",
+      "size" : 948
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1663422218438,
+      "stop" : 1663422218438,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1663422298026,
+      "stop" : 1663422298026,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5FKMFO0H"
+  }, {
+    "name" : "thread",
+    "value" : "16372-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b7b2e35af1c162b.json",
+  "parameterValues" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+}
