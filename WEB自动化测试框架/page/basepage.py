@@ -18,12 +18,14 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
+
+from WEB自动化测试框架 import setting
 from WEB自动化测试框架.common import logger, con_db, get_global
-from WEB自动化测试框架.common import setting
 
 class BasePage():
     logger = logger
     con_db = con_db
+    setting = setting
     base_url = ''
 
     def __init__(self,driver:WebDriver=None):
@@ -46,8 +48,6 @@ class BasePage():
         if self.base_url != '':
             self._driver.get(self.base_url)
             self._driver.maximize_window()
-
-
     def get_element(self, *locator, wait_time=20, per_time=1):
         '''
          查找获取单个元素

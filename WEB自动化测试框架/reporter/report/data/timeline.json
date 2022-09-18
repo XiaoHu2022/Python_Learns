@@ -4,71 +4,16 @@
   "children" : [ {
     "name" : "LAPTOP-5FKMFO0H",
     "children" : [ {
-      "name" : "22192-MainThread",
-      "children" : [ {
-        "name" : "test_login[data1]",
-        "uid" : "7a5b353c74fede72",
-        "parentUid" : "209d65cbf3793a86a1b9e6e08a30bc87",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663413681068,
-          "stop" : 1663413687917,
-          "duration" : 6849
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
-      }, {
-        "name" : "test_login[data2]",
-        "uid" : "e92bb3d9bec25eb1",
-        "parentUid" : "209d65cbf3793a86a1b9e6e08a30bc87",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663413700852,
-          "stop" : 1663413708589,
-          "duration" : 7737
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
-      }, {
-        "name" : "test_login[data0]",
-        "uid" : "712acef53fea61df",
-        "parentUid" : "209d65cbf3793a86a1b9e6e08a30bc87",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663413659708,
-          "stop" : 1663413667659,
-          "duration" : 7951
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
-      } ],
-      "uid" : "209d65cbf3793a86a1b9e6e08a30bc87"
-    }, {
-      "name" : "9292-MainThread",
+      "name" : "25848-MainThread",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "4323c8ee6bec6415",
-        "parentUid" : "888e0bbb02fab5eaf25a4735be9b56c0",
-        "status" : "broken",
+        "uid" : "da3cdeae8f95c572",
+        "parentUid" : "0b1da253faa97c38d7319e41a3285c45",
+        "status" : "passed",
         "time" : {
-          "start" : 1663422120496,
-          "stop" : 1663422120496,
-          "duration" : 0
+          "start" : 1663422072200,
+          "stop" : 1663422080174,
+          "duration" : 7974
         },
         "flaky" : false,
         "newFailed" : false,
@@ -78,31 +23,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
       }, {
-        "name" : "test_login[data2]",
-        "uid" : "d6c9cbd718b2a06f",
-        "parentUid" : "888e0bbb02fab5eaf25a4735be9b56c0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1663422120676,
-          "stop" : 1663422120676,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
-      }, {
         "name" : "test_login[data1]",
-        "uid" : "f6d2cd7aa0edad42",
-        "parentUid" : "888e0bbb02fab5eaf25a4735be9b56c0",
-        "status" : "broken",
+        "uid" : "d46523a84c3be343",
+        "parentUid" : "0b1da253faa97c38d7319e41a3285c45",
+        "status" : "passed",
         "time" : {
-          "start" : 1663422120626,
-          "stop" : 1663422120626,
-          "duration" : 0
+          "start" : 1663422093653,
+          "stop" : 1663422100875,
+          "duration" : 7222
         },
         "flaky" : false,
         "newFailed" : false,
@@ -112,12 +40,12 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
       } ],
-      "uid" : "888e0bbb02fab5eaf25a4735be9b56c0"
+      "uid" : "0b1da253faa97c38d7319e41a3285c45"
     }, {
       "name" : "4912-MainThread",
       "children" : [ {
         "name" : "test_login[data1]",
-        "uid" : "90983350dea66132",
+        "uid" : "4ec1521faf6dc141",
         "parentUid" : "29d12441c6e7f8a84ebaa6086e28096c",
         "status" : "passed",
         "time" : {
@@ -134,7 +62,7 @@
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
       }, {
         "name" : "test_login[data2]",
-        "uid" : "20f48d559c98f0f0",
+        "uid" : "f84715103c68b8a3",
         "parentUid" : "29d12441c6e7f8a84ebaa6086e28096c",
         "status" : "passed",
         "time" : {
@@ -151,7 +79,7 @@
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       }, {
         "name" : "test_login[data0]",
-        "uid" : "c037bf06f7fd61e3",
+        "uid" : "6198c4c066c2aa10",
         "parentUid" : "29d12441c6e7f8a84ebaa6086e28096c",
         "status" : "passed",
         "time" : {
@@ -169,268 +97,65 @@
       } ],
       "uid" : "29d12441c6e7f8a84ebaa6086e28096c"
     }, {
-      "name" : "25848-MainThread",
+      "name" : "21776-MainThread",
       "children" : [ {
         "name" : "test_login[data1]",
-        "uid" : "dbf73fc65519fe67",
-        "parentUid" : "0b1da253faa97c38d7319e41a3285c45",
+        "uid" : "7ce9fc30b2bcc30d",
+        "parentUid" : "db3d39ca9d610137d80a1f93b73fc6e7",
         "status" : "passed",
         "time" : {
-          "start" : 1663422093653,
-          "stop" : 1663422100875,
-          "duration" : 7222
+          "start" : 1663486420905,
+          "stop" : 1663486427590,
+          "duration" : 6685
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
       }, {
         "name" : "test_login[data0]",
-        "uid" : "518171fd383a8eaa",
-        "parentUid" : "0b1da253faa97c38d7319e41a3285c45",
+        "uid" : "c0c5b95fdca85dd1",
+        "parentUid" : "db3d39ca9d610137d80a1f93b73fc6e7",
         "status" : "passed",
         "time" : {
-          "start" : 1663422072200,
-          "stop" : 1663422080174,
-          "duration" : 7974
+          "start" : 1663486389991,
+          "stop" : 1663486399690,
+          "duration" : 9699
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
-      } ],
-      "uid" : "0b1da253faa97c38d7319e41a3285c45"
-    }, {
-      "name" : "4888-MainThread",
-      "children" : [ {
-        "name" : "test_login[data2]",
-        "uid" : "8e45a284adbf315d",
-        "parentUid" : "1b2c3796c77737d428ad38719f7d3ea6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663419388088,
-          "stop" : 1663419394240,
-          "duration" : 6152
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
-      }, {
-        "name" : "test_login[data0]",
-        "uid" : "5572be26bf066aac",
-        "parentUid" : "1b2c3796c77737d428ad38719f7d3ea6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663419335132,
-          "stop" : 1663419343036,
-          "duration" : 7904
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
-      }, {
-        "name" : "test_login[data1]",
-        "uid" : "cfdce42db23d8ebf",
-        "parentUid" : "1b2c3796c77737d428ad38719f7d3ea6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663419356884,
-          "stop" : 1663419364421,
-          "duration" : 7537
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
-      } ],
-      "uid" : "1b2c3796c77737d428ad38719f7d3ea6"
-    }, {
-      "name" : "25936-MainThread",
-      "children" : [ {
-        "name" : "test_login[data2]",
-        "uid" : "b8eba1e7ac514314",
-        "parentUid" : "68337d309b6968692f3a80d631f046cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663422391242,
-          "stop" : 1663422397246,
-          "duration" : 6004
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
-      }, {
-        "name" : "test_login[data0]",
-        "uid" : "86547b59a0746500",
-        "parentUid" : "68337d309b6968692f3a80d631f046cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663422340681,
-          "stop" : 1663422348941,
-          "duration" : 8260
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
-      }, {
-        "name" : "test_login[data1]",
-        "uid" : "307b8e1c10f68c6a",
-        "parentUid" : "68337d309b6968692f3a80d631f046cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663422362586,
-          "stop" : 1663422369359,
-          "duration" : 6773
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
-      } ],
-      "uid" : "68337d309b6968692f3a80d631f046cc"
-    }, {
-      "name" : "25532-MainThread",
-      "children" : [ {
-        "name" : "test_login[data0]",
-        "uid" : "f5706d78e14f3804",
-        "parentUid" : "c9b84135c1c7f449e700b75377ceb657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663422767896,
-          "stop" : 1663422776417,
-          "duration" : 8521
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
         "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
       }, {
         "name" : "test_login[data2]",
-        "uid" : "66f9548508c4ca11",
-        "parentUid" : "c9b84135c1c7f449e700b75377ceb657",
+        "uid" : "37bface0255567e5",
+        "parentUid" : "db3d39ca9d610137d80a1f93b73fc6e7",
         "status" : "passed",
         "time" : {
-          "start" : 1663422891973,
-          "stop" : 1663422898207,
-          "duration" : 6234
+          "start" : 1663486441446,
+          "stop" : 1663486449827,
+          "duration" : 8381
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
-      }, {
-        "name" : "test_login[data1]",
-        "uid" : "41ef0bdaac4e2c4e",
-        "parentUid" : "c9b84135c1c7f449e700b75377ceb657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663422833620,
-          "stop" : 1663422841791,
-          "duration" : 8171
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
-      } ],
-      "uid" : "c9b84135c1c7f449e700b75377ceb657"
-    }, {
-      "name" : "22864-MainThread",
-      "children" : [ {
-        "name" : "test_login[data0]",
-        "uid" : "cbf1fb4874665e98",
-        "parentUid" : "deed3eca5593615da3555ee8384b3471",
-        "status" : "broken",
-        "time" : {
-          "start" : 1663422037378,
-          "stop" : 1663422037378,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
-      }, {
-        "name" : "test_login[data1]",
-        "uid" : "1a428e33603394f4",
-        "parentUid" : "deed3eca5593615da3555ee8384b3471",
-        "status" : "broken",
-        "time" : {
-          "start" : 1663422037528,
-          "stop" : 1663422037528,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
-      }, {
-        "name" : "test_login[data2]",
-        "uid" : "fce188a371f7195b",
-        "parentUid" : "deed3eca5593615da3555ee8384b3471",
-        "status" : "broken",
-        "time" : {
-          "start" : 1663422037578,
-          "stop" : 1663422037578,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "retriesCount" : 14,
+        "retriesStatusChange" : true,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       } ],
-      "uid" : "deed3eca5593615da3555ee8384b3471"
+      "uid" : "db3d39ca9d610137d80a1f93b73fc6e7"
     }, {
       "name" : "4220-MainThread",
       "children" : [ {
         "name" : "test_login[data2]",
-        "uid" : "1ce0fdb9c9c4556c",
+        "uid" : "2b5dc40baf2d7183",
         "parentUid" : "644f6184f211ca24eefec375765b6ea4",
         "status" : "passed",
         "time" : {
@@ -447,7 +172,7 @@
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       }, {
         "name" : "test_login[data0]",
-        "uid" : "7f3d80ff35e71f17",
+        "uid" : "4ed36d4022f3e49d",
         "parentUid" : "644f6184f211ca24eefec375765b6ea4",
         "status" : "passed",
         "time" : {
@@ -464,7 +189,7 @@
         "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
       }, {
         "name" : "test_login[data1]",
-        "uid" : "5739ec813141eca8",
+        "uid" : "d2be6aef3985f14a",
         "parentUid" : "644f6184f211ca24eefec375765b6ea4",
         "status" : "passed",
         "time" : {
@@ -482,16 +207,16 @@
       } ],
       "uid" : "644f6184f211ca24eefec375765b6ea4"
     }, {
-      "name" : "16536-MainThread",
+      "name" : "25936-MainThread",
       "children" : [ {
         "name" : "test_login[data2]",
-        "uid" : "7ef75b372f9be9b5",
-        "parentUid" : "14dc9bc76070dacdab651415cd028676",
-        "status" : "broken",
+        "uid" : "c614ce3aabcd2f3d",
+        "parentUid" : "68337d309b6968692f3a80d631f046cc",
+        "status" : "passed",
         "time" : {
-          "start" : 1663422547782,
-          "stop" : 1663422547782,
-          "duration" : 0
+          "start" : 1663422391242,
+          "stop" : 1663422397246,
+          "duration" : 6004
         },
         "flaky" : false,
         "newFailed" : false,
@@ -501,31 +226,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       }, {
-        "name" : "test_login[data0]",
-        "uid" : "4948bbb2054692d9",
-        "parentUid" : "14dc9bc76070dacdab651415cd028676",
-        "status" : "broken",
-        "time" : {
-          "start" : 1663422547572,
-          "stop" : 1663422547572,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
-      }, {
         "name" : "test_login[data1]",
-        "uid" : "330cf4dbb11f55c5",
-        "parentUid" : "14dc9bc76070dacdab651415cd028676",
-        "status" : "broken",
+        "uid" : "f2466a7132b1ed0",
+        "parentUid" : "68337d309b6968692f3a80d631f046cc",
+        "status" : "passed",
         "time" : {
-          "start" : 1663422547722,
-          "stop" : 1663422547722,
-          "duration" : 0
+          "start" : 1663422362586,
+          "stop" : 1663422369359,
+          "duration" : 6773
         },
         "flaky" : false,
         "newFailed" : false,
@@ -534,19 +242,91 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "2768a84ad97b0371",
+        "parentUid" : "68337d309b6968692f3a80d631f046cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663422340681,
+          "stop" : 1663422348941,
+          "duration" : 8260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
       } ],
-      "uid" : "14dc9bc76070dacdab651415cd028676"
+      "uid" : "68337d309b6968692f3a80d631f046cc"
     }, {
-      "name" : "4540-MainThread",
+      "name" : "22192-MainThread",
+      "children" : [ {
+        "name" : "test_login[data2]",
+        "uid" : "ec78bb5a7bd30d8b",
+        "parentUid" : "209d65cbf3793a86a1b9e6e08a30bc87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663413700852,
+          "stop" : 1663413708589,
+          "duration" : 7737
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "e7205675bd67eb4",
+        "parentUid" : "209d65cbf3793a86a1b9e6e08a30bc87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663413681068,
+          "stop" : 1663413687917,
+          "duration" : 6849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "9102a172d6682d6a",
+        "parentUid" : "209d65cbf3793a86a1b9e6e08a30bc87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663413659708,
+          "stop" : 1663413667659,
+          "duration" : 7951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      } ],
+      "uid" : "209d65cbf3793a86a1b9e6e08a30bc87"
+    }, {
+      "name" : "12940-MainThread",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "828e952f53203144",
-        "parentUid" : "7821e0f84372cabce564a6c89a167030",
-        "status" : "broken",
+        "uid" : "5d3521d85c19ddb7",
+        "parentUid" : "e734f37ac93b4a0a488f828d97ede19e",
+        "status" : "passed",
         "time" : {
-          "start" : 1663422454258,
-          "stop" : 1663422454258,
-          "duration" : 0
+          "start" : 1663427670583,
+          "stop" : 1663427676559,
+          "duration" : 5976
         },
         "flaky" : false,
         "newFailed" : false,
@@ -557,12 +337,50 @@
         "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
       }, {
         "name" : "test_login[data2]",
-        "uid" : "d92eb0fd74547075",
-        "parentUid" : "7821e0f84372cabce564a6c89a167030",
+        "uid" : "a77f9bca9054cbd4",
+        "parentUid" : "e734f37ac93b4a0a488f828d97ede19e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663427718010,
+          "stop" : 1663427723238,
+          "duration" : 5228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "efb59f5a049c14b4",
+        "parentUid" : "e734f37ac93b4a0a488f828d97ede19e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663427694423,
+          "stop" : 1663427700034,
+          "duration" : 5611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      } ],
+      "uid" : "e734f37ac93b4a0a488f828d97ede19e"
+    }, {
+      "name" : "9292-MainThread",
+      "children" : [ {
+        "name" : "test_login[data2]",
+        "uid" : "4b7ce8162b475e11",
+        "parentUid" : "888e0bbb02fab5eaf25a4735be9b56c0",
         "status" : "broken",
         "time" : {
-          "start" : 1663422454448,
-          "stop" : 1663422454448,
+          "start" : 1663422120676,
+          "stop" : 1663422120676,
           "duration" : 0
         },
         "flaky" : false,
@@ -574,12 +392,139 @@
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       }, {
         "name" : "test_login[data1]",
-        "uid" : "7c8a7987dad13786",
-        "parentUid" : "7821e0f84372cabce564a6c89a167030",
+        "uid" : "e7284d119aeca7d0",
+        "parentUid" : "888e0bbb02fab5eaf25a4735be9b56c0",
         "status" : "broken",
         "time" : {
-          "start" : 1663422454398,
-          "stop" : 1663422454398,
+          "start" : 1663422120626,
+          "stop" : 1663422120626,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "b66beab364deb053",
+        "parentUid" : "888e0bbb02fab5eaf25a4735be9b56c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422120496,
+          "stop" : 1663422120496,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      } ],
+      "uid" : "888e0bbb02fab5eaf25a4735be9b56c0"
+    }, {
+      "name" : "25532-MainThread",
+      "children" : [ {
+        "name" : "test_login[data1]",
+        "uid" : "b83546a5f4ac3070",
+        "parentUid" : "c9b84135c1c7f449e700b75377ceb657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663422833620,
+          "stop" : 1663422841791,
+          "duration" : 8171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      }, {
+        "name" : "test_login[data2]",
+        "uid" : "f4e35ebb3be32e16",
+        "parentUid" : "c9b84135c1c7f449e700b75377ceb657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663422891973,
+          "stop" : 1663422898207,
+          "duration" : 6234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "8ebff09853611eaf",
+        "parentUid" : "c9b84135c1c7f449e700b75377ceb657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663422767896,
+          "stop" : 1663422776417,
+          "duration" : 8521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      } ],
+      "uid" : "c9b84135c1c7f449e700b75377ceb657"
+    }, {
+      "name" : "22864-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "5a810e17200414dd",
+        "parentUid" : "deed3eca5593615da3555ee8384b3471",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422037378,
+          "stop" : 1663422037378,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      }, {
+        "name" : "test_login[data2]",
+        "uid" : "64d667356f18af4f",
+        "parentUid" : "deed3eca5593615da3555ee8384b3471",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422037578,
+          "stop" : 1663422037578,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "86849d3bfb9ca484",
+        "parentUid" : "deed3eca5593615da3555ee8384b3471",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422037528,
+          "stop" : 1663422037528,
           "duration" : 0
         },
         "flaky" : false,
@@ -590,29 +535,12 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
       } ],
-      "uid" : "7821e0f84372cabce564a6c89a167030"
+      "uid" : "deed3eca5593615da3555ee8384b3471"
     }, {
       "name" : "16372-MainThread",
       "children" : [ {
-        "name" : "test_login[data1]",
-        "uid" : "16773422f80e2ac7",
-        "parentUid" : "e3bee4d998b0d73a519b7da0c230ac8f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663422257101,
-          "stop" : 1663422262463,
-          "duration" : 5362
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
-      }, {
         "name" : "test_login[data2]",
-        "uid" : "b1aed89fd6cd8348",
+        "uid" : "7be33e576ed9b827",
         "parentUid" : "e3bee4d998b0d73a519b7da0c230ac8f",
         "status" : "passed",
         "time" : {
@@ -629,7 +557,7 @@
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       }, {
         "name" : "test_login[data0]",
-        "uid" : "3b7b2e35af1c162b",
+        "uid" : "7a00b76ff892ba1c",
         "parentUid" : "e3bee4d998b0d73a519b7da0c230ac8f",
         "status" : "passed",
         "time" : {
@@ -644,13 +572,30 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "d4a8a9f2affe29c9",
+        "parentUid" : "e3bee4d998b0d73a519b7da0c230ac8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663422257101,
+          "stop" : 1663422262463,
+          "duration" : 5362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
       } ],
       "uid" : "e3bee4d998b0d73a519b7da0c230ac8f"
     }, {
       "name" : "1372-MainThread",
       "children" : [ {
         "name" : "test_login[data2]",
-        "uid" : "f22dfb17d532dfaf",
+        "uid" : "f2f6d8869104bba9",
         "parentUid" : "d45b1a02ed1ffc56622def677d83f950",
         "status" : "failed",
         "time" : {
@@ -666,25 +611,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       }, {
-        "name" : "test_login[data1]",
-        "uid" : "9b2782b5bd16b00b",
-        "parentUid" : "d45b1a02ed1ffc56622def677d83f950",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663418959725,
-          "stop" : 1663418965436,
-          "duration" : 5711
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
-      }, {
         "name" : "test_login[data0]",
-        "uid" : "27333d7c7cb7767e",
+        "uid" : "e95119fa8a3ca414",
         "parentUid" : "d45b1a02ed1ffc56622def677d83f950",
         "status" : "passed",
         "time" : {
@@ -699,63 +627,245 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "3f64bc3780ca99ec",
+        "parentUid" : "d45b1a02ed1ffc56622def677d83f950",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663418959725,
+          "stop" : 1663418965436,
+          "duration" : 5711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
       } ],
       "uid" : "d45b1a02ed1ffc56622def677d83f950"
     }, {
-      "name" : "12940-MainThread",
+      "name" : "4540-MainThread",
       "children" : [ {
-        "name" : "test_login[data0]",
-        "uid" : "73b08303c0ea18b1",
-        "parentUid" : "e734f37ac93b4a0a488f828d97ede19e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1663427670583,
-          "stop" : 1663427676559,
-          "duration" : 5976
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 13,
-        "retriesStatusChange" : true,
-        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
-      }, {
         "name" : "test_login[data1]",
-        "uid" : "16068cb76fbbdb4b",
-        "parentUid" : "e734f37ac93b4a0a488f828d97ede19e",
-        "status" : "passed",
+        "uid" : "6def046adb64acaa",
+        "parentUid" : "7821e0f84372cabce564a6c89a167030",
+        "status" : "broken",
         "time" : {
-          "start" : 1663427694423,
-          "stop" : 1663427700034,
-          "duration" : 5611
+          "start" : 1663422454398,
+          "stop" : 1663422454398,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 13,
-        "retriesStatusChange" : true,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
       }, {
         "name" : "test_login[data2]",
-        "uid" : "396e2ac337033178",
-        "parentUid" : "e734f37ac93b4a0a488f828d97ede19e",
-        "status" : "passed",
+        "uid" : "5640237b48a4eb3f",
+        "parentUid" : "7821e0f84372cabce564a6c89a167030",
+        "status" : "broken",
         "time" : {
-          "start" : 1663427718010,
-          "stop" : 1663427723238,
-          "duration" : 5228
+          "start" : 1663422454448,
+          "stop" : 1663422454448,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 12,
-        "retriesStatusChange" : true,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "628fb64014691675",
+        "parentUid" : "7821e0f84372cabce564a6c89a167030",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422454258,
+          "stop" : 1663422454258,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      } ],
+      "uid" : "7821e0f84372cabce564a6c89a167030"
+    }, {
+      "name" : "4888-MainThread",
+      "children" : [ {
+        "name" : "test_login[data2]",
+        "uid" : "d725a7e81f7d0206",
+        "parentUid" : "1b2c3796c77737d428ad38719f7d3ea6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663419388088,
+          "stop" : 1663419394240,
+          "duration" : 6152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "44aba3ec566cbb15",
+        "parentUid" : "1b2c3796c77737d428ad38719f7d3ea6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663419335132,
+          "stop" : 1663419343036,
+          "duration" : 7904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "130643da6c2e352a",
+        "parentUid" : "1b2c3796c77737d428ad38719f7d3ea6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663419356884,
+          "stop" : 1663419364421,
+          "duration" : 7537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      } ],
+      "uid" : "1b2c3796c77737d428ad38719f7d3ea6"
+    }, {
+      "name" : "16892-MainThread",
+      "children" : [ {
+        "name" : "test_login[data2]",
+        "uid" : "60ef993de6acefb",
+        "parentUid" : "9dd84593bcb557d8a369c383dcfa1fdf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663486256949,
+          "stop" : 1663486256949,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "c5d11624827c26f3",
+        "parentUid" : "9dd84593bcb557d8a369c383dcfa1fdf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663486254695,
+          "stop" : 1663486254695,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "d9ff4849272d2032",
+        "parentUid" : "9dd84593bcb557d8a369c383dcfa1fdf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663486246438,
+          "stop" : 1663486246438,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      } ],
+      "uid" : "9dd84593bcb557d8a369c383dcfa1fdf"
+    }, {
+      "name" : "16536-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "9c1e23f73364a5aa",
+        "parentUid" : "14dc9bc76070dacdab651415cd028676",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422547572,
+          "stop" : 1663422547572,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_001', 'case_title': '用户输入正确的用户名、\\n密码，点击登录', 'test_data': {'username': 'alive', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': '/html/body/div[2]/div/ul[1]/div/div/a', 'exp_value': '退出'}}" ]
+      }, {
+        "name" : "test_login[data1]",
+        "uid" : "9c9090da05843d31",
+        "parentUid" : "14dc9bc76070dacdab651415cd028676",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422547722,
+          "stop" : 1663422547722,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入错误的用户名、\\n正确的密码，点击登录', 'test_data': {'username': 'alive1', 'password': 123456}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '登录帐号不存在'}}" ]
+      }, {
+        "name" : "test_login[data2]",
+        "uid" : "8ba4c78b298264a3",
+        "parentUid" : "14dc9bc76070dacdab651415cd028676",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663422547782,
+          "stop" : 1663422547782,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "{'case_id': 'login_case_002', 'case_title': '用户输入正确的用户名、\\n错误的密码，点击登录', 'test_data': {'username': 'alive', 'password': 1234567}, 'exp': {'by': 'xpath', 'locater': \"//*[@id='common-prompt']/div/p\", 'exp_value': '密码错误'}}" ]
       } ],
-      "uid" : "e734f37ac93b4a0a488f828d97ede19e"
+      "uid" : "14dc9bc76070dacdab651415cd028676"
     } ],
     "uid" : "50fa2a9632ccce3baddd46631294654d"
   } ]
